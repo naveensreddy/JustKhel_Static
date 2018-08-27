@@ -1,80 +1,120 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Help</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
-    
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Help</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="./jquery-3.3.1.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
 </head>
+
 <body style="margin:0px;">
-        <div class="header">
-            <a href="http://www.justkhel.com/"><img class="image_logo" src="https://dyrnmb8cbz1ud.cloudfront.net/images/logos/justkhel_testlogo.png" alt="JustKhel"></a>
-             <div class="top_nav">
-                      <a href='help.html'>Help</a>
-                      <a href='howtoplay.html'>How To Play</a>
-                    </div>
-                 </div>
-                 <div class="sidebar">
-                    <ul class= "nav-tabs" >
-                        <li><a class="active" data-toggle="tab" href="#howtoplay">How To Play</a></li>
-                        <li><a data-toggle="tab" href="#scoring">Scoring </a></li>
-                        <li><a data-toggle="tab" href="#account">Account Related</a></li>
-                        <li><a data-toggle="tab" href="#invite" >Invite Friends</a></li>
-                        <li><a data-toggle="tab" href="#withdrawl" >Withdrawl</a></li>
-                     </ul>
-                      </div>
-                     <div class="text_content">
-                         <div id="howtoplay" class="text_content">
-                             Leagues
-                         </div>
-                         <div  id="invite" class="text_content" >
-                              <p>refer a friend</p>
-                            <div id="account" class="text_content" >
-                                <p>Account section</p>
-                                
-                            </div>
-                           
-                     </div>
-                <div class="footer_bottom">
-                    <div class="container">
-                         <ul>
-                              <li><a href='aboutus.html'>About Us</a></li>
-                              <li><a href='privacy_policy.html'>Privacy Policy</a></li>
-                               <li><a href='disclaimer.html'>Disclaimer</a></li>
-                                <li><a href='termsandconditions.html'>Terms and Conditions</a></li>
-                            </ul>
-                        <hr/>
-                    </div>
-                     <div class="container_social">
-                         <h4 >Follow Us On</h4>
-                         <ul>
-                              <li><a href="https://www.facebook.com/JustKhelStudio/"target="_blank"> <img src="https://dyrnmb8cbz1ud.cloudfront.net/images/icons/fb.png" alt="facebook" ></a></li>
-                              <li><a href="https://www.twitter.com/"target="_blank"> <img src="https://dyrnmb8cbz1ud.cloudfront.net/images/icons/twitter.png" alt="twitter" ></a></li>
-                               <li> <a href="https://www.instagram.com/"target="_blank"><img src="https://dyrnmb8cbz1ud.cloudfront.net/images/icons/insta.png" alt="instagram"></a></li>
-                             </ul>
-                             <ul>
-                                 <li>&copy; 2018, Algorin Techlabs</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </body>
-                    
-                    <script type="text/javascript">
-                        $(document).ready(function(){
-                            $('.text_container').addClass("hide");
-                    
-                            $('.text_container').click(function() {
-                                var $this = $(this);
-                    
-                                if ($this.hasClass("hide")) {
-                                    $(this).removeClass("hide").addClass("active");
-                    
-                                } else {
-                                    $(this).removeClass("active").addClass("hide");
-                                }
-                            });
-                        });
-                    </script>        
-                    </html>
+	<!-- <div class="header">
+        <a href="http://www.justkhel.com/"><img class="image_logo" src="https://dyrnmb8cbz1ud.cloudfront.net/images/logos/justkhel_testlogo.png"
+                alt="JustKhel"></a>
+        <div class="top_nav">
+            <a href='help.html'>Help</a>
+            <a href='howtoplay.html'>How To Play</a>
+        </div>
+    </div> -->
+	<div class="sidebar">
+		<ul class="nav-tabs">
+			<li><a class="tab active" data-toggle="tab" href="#howtoplay">How To Play</a></li>
+			<li><a data-toggle="tab" class="tab" href="#scoring">Scoring </a></li>
+			<li><a data-toggle="tab" class="tab" href="#account">Account Related</a></li>
+			<li><a data-toggle="tab" class="tab" href="#invite">Invite Friends</a></li>
+			<li><a data-toggle="tab" class="tab" href="#withdrawl">Withdrawl</a></li>
+		</ul>
+	</div>
+	<div class="text_container">
+		<div id="howtoplay" class="text_content">
+			Leagues
+		</div>
+		<div id="invite" class="text_content hide">
+			refer a friend
+		</div>
+		<div id="account" class="text_content hide">
+		Account section
+		</div>
+
+	</div>
+	<div class="footer_bottom">
+		<div class="container">
+			<ul>
+				<li><a href='aboutus.html'>About Us</a></li>
+				<li><a href='privacy_policy.html'>Privacy Policy</a></li>
+				<li><a href='disclaimer.html'>Disclaimer</a></li>
+				<li><a href='termsandconditions.html'>Terms and Conditions</a></li>
+			</ul>
+			<hr/>
+		</div>
+		<div class="container_social">
+			<h4>Follow Us On</h4>
+			<ul>
+				<!-- <li><a href="https://www.facebook.com/JustKhelStudio/" target="_blank"> <img src="https://dyrnmb8cbz1ud.cloudfront.net/images/icons/fb.png"
+                                alt="facebook"></a></li>
+                    <li><a href="https://www.twitter.com/" target="_blank"> <img src="https://dyrnmb8cbz1ud.cloudfront.net/images/icons/twitter.png"
+                                alt="twitter"></a></li>
+                    <li> <a href="https://www.instagram.com/" target="_blank"><img src="https://dyrnmb8cbz1ud.cloudfront.net/images/icons/insta.png"
+                                alt="instagram"></a></li> -->
+			</ul>
+			<ul>
+				<li>&copy; 2018, Algorin Techlabs</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript">
+
+		const tabs = document.querySelectorAll('.tab');
+		const textContent = document.querySelectorAll('.text_content')
+		function toggleContent(e) {
+			let id =
+				this.getAttribute("href").replace("#", "")
+			textContent.forEach(text=>{
+				if(text.getAttribute("id")===id){
+					console.log(text)
+					text.classList.remove('hide')
+				}
+				else{
+					text.classList.add('hide')
+				}
+			});
+			tabs.forEach(tab=>{
+				tab.classList.remove('active')
+			});
+			this.classList.add('active')
+		}
+
+		tabs.forEach(tab => {
+			tab.addEventListener('click', toggleContent);
+		})
+
+
+
+
+
+            // $(document).ready(function () {
+            //     console.log($('.nav-tabs a'))
+
+                // $('.text_container').addClass("hide");
+                //     console.log( $('.text_container'))
+                // $('.text_container').click(function () {
+                //     var $this = $(this);
+
+                //     if ($this.hasClass("hide")) {
+                //         $(this).removeClass("hide").addClass("active");
+
+                //     } else {
+                //         $(this).removeClass("active").addClass("hide");
+                //     }
+                // });
+            // });
+	</script>
+</body>
+
+
+
+</html>

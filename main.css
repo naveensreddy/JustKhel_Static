@@ -233,7 +233,7 @@
       padding: 0px;
   }
   
-  .nav-tabs li a{
+  .tab{
     display: block;
     padding: 12px;
     text-decoration: none;
@@ -384,4 +384,8 @@
 .pfont{
     font-size: 15PX;
 }
+}
+
+.hide{
+    display:none;
 }
