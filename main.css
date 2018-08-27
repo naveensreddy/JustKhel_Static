@@ -1,0 +1,387 @@
+.body{
+    padding: 0px;
+}
+.header{
+    overflow: hidden;
+    background:#003063;
+    width: 100%;
+}
+.header h3{
+    display: block;
+    margin-left: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+.image_logo{
+    width:auto;
+    max-width: 20%;
+   margin: 20px 20px 0px 20px;
+}
+
+.footer_bottom{
+    background:#212121;
+    padding-bottom: 15px;
+    width: 100%;
+
+}
+.content{
+    margin:50px;
+    font-family: 'Gill Sans','Roboto', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#444444;
+    line-height: 26px;
+}
+.container{
+    width: 600px;
+    margin: auto;
+}
+.container ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.container li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding:5px 16px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+.container_social{
+    width: 220px;
+    margin: auto;
+}
+.container_social ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-top: 5px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.container_social li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 16px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+.container_social h4{
+    margin:10px 0px 4px 0px;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+.container ul li a:hover {
+    color: #c7c7c7;
+}
+.top_nav{
+    float: right;
+   margin-right: 300px;
+   margin-top:30px;
+   margin-bottom: 30px;   
+}
+.top_nav a{
+    float: right;
+    display: block;
+    color: white;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+
+.top_nav a:hover{
+    color: #c7c7c7;
+}
+
+.top_nav li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 16px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Roboto' 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+.register_login{
+    width: auto;
+    height: 110px;
+    background: #d8d9d9;
+}
+.register{
+    padding-top:20px;
+    display: block;
+    text-align: center;
+    color:#04366b;
+    font-family: 'Calibri';
+    margin: 0px;
+    font-weight: bold;
+    font-size:25px;
+}
+.register a{
+    color:#04366b;
+}
+.login{
+    float:right;
+}
+.login ul{ 
+    list-style-type: none;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-align:right;
+    color:#04366b;
+    font-family: 'Calibri';
+    font-weight: bold;
+    font-size: 16px;
+    float: right;
+}
+.login a {
+    color:#04366b;
+
+}
+.download_container{
+    width: auto;
+    margin: 10px;
+    height: 90px;
+    border:1px #acacac;
+    border-radius: 5px ;
+    background: #acacac;
+}
+.downloadimage{
+    display: block;
+    margin:auto;
+}
+.downloadtext{
+    display: block;
+    margin: 20px;
+    color: #04366b;
+    font-family:  'Calibri';
+    font-size: 20px;
+    float: left;
+    font-weight: bold;
+    text-align: center;
+}
+.game_container{
+    display: block;
+    height:260px;
+    background: #f4f4f4;
+  
+    margin-right: auto;
+    width:auto;
+}
+.game_container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+
+.container_brand{
+    width: auto;
+    margin: 10px;
+    height: 90px;
+    border:1px #0a417c;
+    border-radius: 5px ;
+    background: #0a417c;
+
+}
+.brandimage{
+    float: left;
+    margin-left: 10px;
+    width: 8%;
+    padding: 10px;
+
+}
+.sidebar {
+    margin-left:0px;
+    margin-right:0px;
+    position: absolute;
+    z-index: 1;
+    padding: 0;
+    width: 22%;
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+    font-family: 'calibri';
+    font-size: 22px;
+  }
+   .nav-tabs{
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+  }
+  
+  .nav-tabs li a{
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+
+  .active {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #16406c;
+    color: white;
+    margin:0px;
+  }  
+.nav-tabs a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+    display: block;
+      padding: 10px;
+  }
+
+ .text_content{
+      margin-left: 30%;
+      margin-right: 20px;
+      width: auto;
+  }
+  .img-responsive{
+    display: block;
+    max-width: 50%;
+    height:auto;
+    padding: 20px;
+    
+}
+.pfont{
+    font-family: 'Calibri';
+    font-size: 15PX;
+}
+.active{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:600px){
+    .image_logo{
+         display: block;
+          margin-left: auto;
+           margin-right: auto;
+            width: 600px;
+            max-width: 60%; 
+    }
+    .header h3{
+        margin-left:0px;
+        text-align: center;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: normal;
+    }
+    .content{
+    margin: 18px;
+   
+    }
+    .container{
+        width: auto;
+        margin: auto;
+    }
+    .header{
+        width: auto;
+    }
+    .footer_bottom{
+        width: 100%;
+    
+    }
+    .header{
+        width: auto;
+    
+    }
+    .top_nav{
+        float: right;
+        margin-left: 60px;
+        margin-right: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .downloadimage{
+        display: block;
+        margin-top:20px;
+        max-width: 34%;
+        float:right;
+    
+}
+.downloadtext{
+    width: 160px;
+    margin: 0px;
+    padding: 8px;
+    color: #04366b;
+    font-family:  'Calibri';
+    font-size: 20px;
+    
+}
+.game_container{
+        display: block;
+        height: 150px;
+          margin-right: auto;
+           width: auto ;
+}
+.column {
+    float: left;
+    margin-left: 12px;
+    width: 38%;
+    padding: 10px;
+}
+.brandimage{
+    float: left;
+    margin: 5px;
+    width: 22%;
+    padding: 10px;
+}
+.sidebar {
+        margin-left:0px;
+        margin-right:0px;
+        position: relative;
+        z-index: 1;
+        padding: 0;
+        width: auto; ;
+        background-color: #f1f1f1;
+        font-family: 'calibri';
+        font-size: 22px;
+  }
+  .nav-tabs li a {
+      padding-left: 20px;
+      text-align: center;
+      text-decoration: none;
+}
+  .img-responsive{
+    display: block;
+        max-width: 80%;
+        height: auto;
+        padding: 20px;
+}
+#text_content{
+    margin-left: 5%;
+    width: auto;
+}
+.pfont{
+    font-size: 15PX;
+}
+}
